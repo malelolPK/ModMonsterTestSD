@@ -1,0 +1,8 @@
+C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\bin\Debug\net6.0\SNAPI monster test.deps.json
+C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\bin\Debug\net6.0\SNAPI monster test.dll
+C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.csproj.AssemblyReference.cache
+C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.AssemblyInfoInputs.cache
+C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.AssemblyInfo.cs
+C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.csproj.CoreCompileInputs.cache
+C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.dll

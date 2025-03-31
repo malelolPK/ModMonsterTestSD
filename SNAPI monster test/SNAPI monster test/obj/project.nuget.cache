@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6JDhrDpFcDE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\SNAPI monster test\\SNAPI monster test\\SNAPI monster test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\malel\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.3.2\\pathoschild.stardew.modbuildconfig.4.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>SNAPI_monster_test</RootNamespace>
+	<ModFolderName>Monster test malelol</ModFolderName>
+	<ImplicitUsings>enable</ImplicitUsings>
+	<EnableModDeploy>true</EnableModDeploy>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.3.2" />
+	<ContentPacks Include="C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\CP monster test" Version="2.6.0" />
+  </ItemGroup>
+
+</Project>
