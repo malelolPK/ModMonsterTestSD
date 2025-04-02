@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SNAPI monster test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52fd6ee6db99b418f95cef3d525d7519dc553384")]
 [assembly: System.Reflection.AssemblyProductAttribute("SNAPI monster test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SNAPI monster test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,3 +6,4 @@ C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monste
 C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.AssemblyInfo.cs
 C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.csproj.CoreCompileInputs.cache
 C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.dll
+C:\Users\malel\Desktop\STARDEWMODS\Monster Piotr\SNAPI monster test\SNAPI monster test\obj\Debug\net6.0\SNAPI monster test.sourcelink.json

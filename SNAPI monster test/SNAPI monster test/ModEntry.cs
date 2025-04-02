@@ -63,36 +63,149 @@ namespace SNAPI_monster_test
 
     }
 }
-
 public class SlimeBoss : Monster
 {
-    private float scale = 0.75f; // Zmniejszona skala - dostosuj według potrzeb
+    private bool hasSpawnedSlimes = false;
+    private int slimesToSpawn = 5;
+    private int spawnTimer = 0;
+    private const int SPAWN_INTERVAL = 60; // 60 klatek ≈ 1 sekunda przy 60 FPS
 
     public SlimeBoss(string name, Vector2 position, int facingDir)
         : base(name, position, facingDir)
     {
-        // Ustawiamy oryginalny rozmiar sprite'a (zgodny z rozmiarem pliku PNG)
-        this.Sprite.spriteWidth.Value = 60;  // Szerokość oryginalnego obrazka
-        this.Sprite.spriteHeight.Value = 70; // Wysokość oryginalnego obrazka
-
-        // Definiowanie animacji
-        this.Sprite.SpriteWidth = 60;
-        this.Sprite.SpriteHeight = 70;
-
-
+        // Inicjalizacja sprite'a
         this.Sprite = new AnimatedSprite("Characters\\Monsters\\SlimeBoss");
-        this.Sprite.CurrentFrame = 0; // Ustawienie pierwszej klatki animacji
-        this.Sprite.interval = 150f; // Szybkość animacji (ms)
-        this.Sprite.Animate(Game1.currentGameTime, 0, 4, 150f); // Animacja 4 klatek
 
+        // Ustawienie wymiarów sprite'a
+        int frameWidth = 60;
+        int frameHeight = 64;
+        this.Sprite.SpriteWidth = frameWidth;
+        this.Sprite.SpriteHeight = frameHeight;
 
-        // Dodatkowe właściwości
+        // Ustawienie skali
+        this.Scale = 0.5f;
+
+        // Ustawienie prostokąta źródłowego dla pierwszej klatki
+        this.Sprite.SourceRect = new Rectangle(0, 0, frameWidth, frameHeight);
+
+        // Tworzenie animacji
+        List<FarmerSprite.AnimationFrame> animation = new List<FarmerSprite.AnimationFrame>();
+        for (int i = 0; i < 4; i++)
+        {
+            animation.Add(new FarmerSprite.AnimationFrame(i, 150));
+        }
+
+        this.Sprite.CurrentAnimation = animation;
+        this.Sprite.loop = true;
+        this.Sprite.interval = 175f;
+
+        // Właściwości potwora
         this.Health = 100;
         this.MaxHealth = 100;
         this.damageToFarmer.Value = 50;
-        this.defaultAnimationInterval.Value = 200; // Szybsza animacja
     }
 
+    public override void update(GameTime time, GameLocation location)
+    {
+        base.update(time, location);
 
+        // Sprawdź, czy boss ma mniej niż 50% HP i jeszcze nie zaczął spawnować slimów
+        if (this.Health <= this.MaxHealth / 2 && !hasSpawnedSlimes)
+        {
+            // Rozpocznij procedurę spawnowania slimów
+            hasSpawnedSlimes = true;
+            spawnTimer = 0;
+        }
 
+        // Jeśli trwa spawnowanie slimów
+        if (hasSpawnedSlimes && slimesToSpawn > 0)
+        {
+            spawnTimer++;
+
+            // Co sekundę (60 klatek) spawnuj nowego slime'a
+            if (spawnTimer >= SPAWN_INTERVAL)
+            {
+                SpawnSlime(location);
+                spawnTimer = 0;
+                slimesToSpawn--;
+            }
+        }
+    }
+
+    private void SpawnSlime(GameLocation location)
+    {
+        // Stwórz nowego slime'a w losowym miejscu wokół bossa
+        Random random = new Random();
+        Vector2 offset = new Vector2(
+            (float)random.Next(-128, 128),
+            (float)random.Next(-128, 128)
+        );
+
+        Vector2 slimePosition = this.Position + offset;
+
+        // Tworzenie nowego slime'a
+        // Używamy standardowego Green Slime z gry
+        GreenSlime slime = new GreenSlime(slimePosition, 0);
+
+        // Ustawienie właściwości slime'a
+        slime.Health = 50;
+        slime.MaxHealth = 50;
+        slime.Scale = 0.75f; // Nieco mniejszy niż boss
+
+        // Dodanie slime'a do lokacji
+        location.characters.Add(slime);
+
+        // Efekt wizualny pojawienia się slime'a
+        location.temporarySprites.Add(new TemporaryAnimatedSprite(
+            6, // Indeks animacji eksplozji
+            slimePosition,
+            Color.LightGreen,
+            8, // Ilość klatek
+            false,
+            100f, // Czas trwania każdej klatki
+            0,
+            -1,
+            -1f,
+            -1,
+            0
+        ));
+
+        // Efekt dźwiękowy
+        Game1.playSound("slime");
+    }
+
+    //// Opcjonalnie: dodaj wizualny wskaźnik kiedy boss zaczyna spawnować slime'y
+    //public override void draw(SpriteBatch b)
+    //{
+    //    base.draw(b);
+
+    //    // Wizualny wskaźnik że boss jest w trybie spawnowania
+    //    if (hasSpawnedSlimes && slimesToSpawn > 0)
+    //    {
+    //        // Dodaj efekt świecenia wokół bossa
+    //        float pulse = (float)Math.Sin(Game1.currentGameTime.TotalGameTime.TotalMilliseconds / 100.0f) * 0.5f + 0.5f;
+    //        Vector2 standingPosition = this.getStandingPosition();
+
+    //        Vector2 drawPosition = Game1.GlobalToLocal(
+    //            Game1.viewport,
+    //            new Vector2(
+    //                this.Position.X + this.Sprite.SpriteWidth * 0.5f,
+    //                this.Position.Y + this.Sprite.SpriteHeight * 0.5f
+    //            )
+    //        );
+
+    //        float size = Math.Max(this.Sprite.SpriteWidth, this.Sprite.SpriteHeight) * this.Scale * 1.5f;
+    //        b.Draw(
+    //            Game1.mouseCursors,
+    //            drawPosition,
+    //            new Rectangle(331, 1985, 28, 28), // Efekt świecenia z tekstury gry
+    //            Color.LightGreen * 0.5f * pulse,
+    //            0f,
+    //            new Vector2(14f, 14f),
+    //            size / 28f,
+    //            SpriteEffects.None,
+    //            standingPosition.Y / 10000f - 0.001f
+    //        );
+    //    }
+    //}
 }
