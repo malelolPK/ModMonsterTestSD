@@ -14,6 +14,12 @@
             "Action": "Load",
             "Target": "Characters/Monsters/SlimeBoss",
             "FromFile": "assets/PNG/BossSlime.png"
+        },
+        {
+            "LogName": "Mine Level 10 Replacement",
+            "Action": "Load",
+            "Target": "Maps/Mines/10",
+            "FromFile": "assets/Maps/arena.tmx"
         }
     ]
 }
