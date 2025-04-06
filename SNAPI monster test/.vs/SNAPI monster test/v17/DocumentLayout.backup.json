@@ -7,7 +7,10 @@
       "RelativeMoniker": "D:0:0:{9D58C648-45F2-43D0-953C-153A4C0D8C6B}|SNAPI monster test\\SNAPI monster test.csproj|solutionrelative:snapi monster test\\modentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\CP monster test\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malel\\Desktop\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\WorldMaps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malel\\AppData\\Local\\Temp\\MetadataAsSource\\1b3cbdd1deb14e4a81fc0dc6e6fefb4a\\DecompilationMetadataAsSourceFileProvider\\61d59574cc9743289790968a41cb6a9f\\MineShaft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D58C648-45F2-43D0-953C-153A4C0D8C6B}|SNAPI monster test\\SNAPI monster test.csproj|c:\\users\\malel\\desktop\\stardewmods\\monster piotr\\snapi monster test\\snapi monster test\\snapi monster test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -16,6 +19,12 @@
     {
       "AbsoluteMoniker": "D:0:0:{9D58C648-45F2-43D0-953C-153A4C0D8C6B}|SNAPI monster test\\SNAPI monster test.csproj|c:\\users\\malel\\desktop\\stardewmods\\monster piotr\\snapi monster test\\snapi monster test\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{9D58C648-45F2-43D0-953C-153A4C0D8C6B}|SNAPI monster test\\SNAPI monster test.csproj|solutionrelative:snapi monster test\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\CP monster test\\manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malel\\Desktop\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\Dungeon.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\CP monster test\\content.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -28,37 +37,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MineShaft.cs",
+              "DocumentMoniker": "C:\\Users\\malel\\AppData\\Local\\Temp\\MetadataAsSource\\1b3cbdd1deb14e4a81fc0dc6e6fefb4a\\DecompilationMetadataAsSourceFileProvider\\61d59574cc9743289790968a41cb6a9f\\MineShaft.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\MetadataAsSource\\1b3cbdd1deb14e4a81fc0dc6e6fefb4a\\DecompilationMetadataAsSourceFileProvider\\61d59574cc9743289790968a41cb6a9f\\MineShaft.cs",
+              "ToolTip": "C:\\Users\\malel\\AppData\\Local\\Temp\\MetadataAsSource\\1b3cbdd1deb14e4a81fc0dc6e6fefb4a\\DecompilationMetadataAsSourceFileProvider\\61d59574cc9743289790968a41cb6a9f\\MineShaft.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Local\\Temp\\MetadataAsSource\\1b3cbdd1deb14e4a81fc0dc6e6fefb4a\\DecompilationMetadataAsSourceFileProvider\\61d59574cc9743289790968a41cb6a9f\\MineShaft.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T10:18:59.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WorldMaps.json",
+              "DocumentMoniker": "C:\\Users\\malel\\Desktop\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\WorldMaps.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\WorldMaps.json",
+              "ToolTip": "C:\\Users\\malel\\Desktop\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\WorldMaps.json",
+              "RelativeToolTip": "..\\..\\..\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\WorldMaps.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T15:57:46.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dungeon.json",
+              "DocumentMoniker": "C:\\Users\\malel\\Desktop\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\Dungeon.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\Dungeon.json",
+              "ToolTip": "C:\\Users\\malel\\Desktop\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\Dungeon.json",
+              "RelativeToolTip": "..\\..\\..\\Sword \u0026 Sorcery\\[CP] Sword \u0026 Sorcery\\Data\\Dungeon.json",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-02T15:57:06.939Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ModEntry.cs",
               "DocumentMoniker": "C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\SNAPI monster test\\SNAPI monster test\\ModEntry.cs",
               "RelativeDocumentMoniker": "SNAPI monster test\\ModEntry.cs",
-              "ToolTip": "C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\SNAPI monster test\\SNAPI monster test\\ModEntry.cs*",
-              "RelativeToolTip": "SNAPI monster test\\ModEntry.cs*",
-              "ViewState": "AgIAAJEAAAAAAAAAAAASwLEAAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\SNAPI monster test\\SNAPI monster test\\ModEntry.cs",
+              "RelativeToolTip": "SNAPI monster test\\ModEntry.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwEIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T15:07:37.771Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "content.json",
               "DocumentMoniker": "C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\CP monster test\\content.json",
               "RelativeDocumentMoniker": "..\\CP monster test\\content.json",
               "ToolTip": "C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\CP monster test\\content.json",
               "RelativeToolTip": "..\\CP monster test\\content.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T15:03:53.806Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T15:03:53.806Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "manifest.json",
               "DocumentMoniker": "C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\SNAPI monster test\\SNAPI monster test\\manifest.json",
               "RelativeDocumentMoniker": "SNAPI monster test\\manifest.json",
@@ -66,12 +109,11 @@
               "RelativeToolTip": "SNAPI monster test\\manifest.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T15:06:57.426Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T15:06:57.426Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "manifest.json",
               "DocumentMoniker": "C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\CP monster test\\manifest.json",
               "RelativeDocumentMoniker": "..\\CP monster test\\manifest.json",
@@ -79,12 +121,11 @@
               "RelativeToolTip": "..\\CP monster test\\manifest.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-31T15:03:45.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T15:03:45.317Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SNAPI monster test.csproj",
               "DocumentMoniker": "C:\\Users\\malel\\Desktop\\STARDEWMODS\\Monster Piotr\\SNAPI monster test\\SNAPI monster test\\SNAPI monster test.csproj",
               "RelativeDocumentMoniker": "SNAPI monster test\\SNAPI monster test.csproj",
@@ -92,8 +133,7 @@
               "RelativeToolTip": "SNAPI monster test\\SNAPI monster test.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-31T15:02:56.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T15:02:56.62Z"
             }
           ]
         }
